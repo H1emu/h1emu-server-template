@@ -12,6 +12,6 @@
 
 ## Update h1z1-server version
 
-- To install lastest stable version of h1z1-server run `npm i h1z1-server@latest`
+- To install latest stable version of h1z1-server run `npm i h1z1-server@latest`
 
-- To install the very lastest version of h1z1-server run `npm i h1z1-server@next`
+- To install the very latest version of h1z1-server run `npm i h1z1-server@next`
