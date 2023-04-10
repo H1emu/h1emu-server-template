@@ -1,6 +1,6 @@
-import { ZoneServer } from "h1z1-server";
+import { ZoneServer2016 } from "h1z1-server";
 
-class ExampleZoneServer extends ZoneServer {
+class ExampleZoneServer extends ZoneServer2016 {
   constructor(
     serverPort: number,
     gatewayKey: Uint8Array,
@@ -8,7 +8,6 @@ class ExampleZoneServer extends ZoneServer {
     worldId?: number
   ) {
     super(serverPort, gatewayKey, mongoAddress, worldId);
-    this._pingTimeoutTime = 120000; // change ping timemout time
   }
 }
 const server = new ExampleZoneServer(
